@@ -346,7 +346,7 @@ genshin_window_exist()
 	genshinHwnd := WinExist("ahk_exe GenshinImpact.exe")
 	if not genshinHwnd
 	{
-		genshinHwnd := WinExist("ahk_exe YuanShen.exe")
+		genshinHwnd := WinExist("ahk_exe dwrg.exe")
 	}
 	return genshinHwnd
 }
